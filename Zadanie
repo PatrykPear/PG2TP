@@ -88,5 +88,6 @@ int main(int argc, char** argv) {
         TI.wprowadz();
         TI.wypisz();
         TI.zapiszDoPliku("c:\\a.txt");
+	TI.wczytajZPliku("c:\\nazwa.txt");
         return 0;
 }
